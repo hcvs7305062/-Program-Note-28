@@ -1,0 +1,13 @@
+int main() {
+	int A,B,C,D;
+	float E;
+	scanf("%d",&A);
+	scanf("%d",&B);
+	scanf("%d",&C);
+	D=A+B+C;
+	E=(A+B+C)/3;
+	if(E>=60)
+	printf("%d\t%.1f\t及格",D,E);
+	else 
+	printf("%d\t%.1f\t不及格",D,E);
+	} 
